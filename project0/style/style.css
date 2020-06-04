@@ -1,0 +1,39 @@
+.Hello {
+    text-align: right;
+    font-size: 36px;
+    color: orange;
+}
+
+#About {
+    text-align: center;
+    font-size: 36px;
+    color: deeppink;
+}
+
+#Projects {
+    text-align: center;
+    font-size: 36px;
+    color: magenta;
+}
+
+#Resume {
+    font-size: 36px;
+    color: blue;
+}
+
+.links-container {
+    padding: 25px;
+}
+
+.links {
+    padding: 25px;
+}
+
+.centered {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%) !important;
+    z-index: 100 !important;
+}
